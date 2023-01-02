@@ -8,19 +8,19 @@ spec:
   - list:
       elements:
       - overlay: qa
-        gitRepo: https://github.com/evercast-chris/argocd-example-apps.git
+        gitRepo: git@github.com:jcquiles/ArgoCD.git
         appPath: overlays
         appBranch: master
         cluster: qa
         url: https://kubernetes.default.svc
       - overlay: stage
-        gitRepo: https://github.com/evercast-chris/argocd-example-apps.git
+        gitRepo: git@github.com:jcquiles/ArgoCD.git
         appPath: overlays
         appBranch: master
         cluster: stage
         url: https://kubernetes.default.svc
       - overlay: prod
-        gitRepo: https://github.com/evercast-chris/argocd-example-apps.git
+        gitRepo: git@github.com:jcquiles/ArgoCD.git
         appPath: overlays
         appBranch: master
         cluster: prod
