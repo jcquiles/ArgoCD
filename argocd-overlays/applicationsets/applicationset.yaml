@@ -10,19 +10,19 @@ spec:
       - overlay: qa
         gitRepo: git@github.com:jcquiles/ArgoCD.git
         appPath: overlays
-        appBranch: master
+        appBranch: main
         cluster: qa
         url: https://kubernetes.default.svc
       - overlay: stage
         gitRepo: git@github.com:jcquiles/ArgoCD.git
         appPath: overlays
-        appBranch: master
+        appBranch: main
         cluster: stage
         url: https://kubernetes.default.svc
       - overlay: prod
         gitRepo: git@github.com:jcquiles/ArgoCD.git
         appPath: overlays
-        appBranch: master
+        appBranch: main
         cluster: prod
         url: https://kubernetes.default.svc
   template:
