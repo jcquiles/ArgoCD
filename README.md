@@ -3,11 +3,11 @@
 
 ## Important Notes About ArgoCD
 
-**The word applicaitons(s) will be used ALOT**
+* **The word applicaitons(s) will be used ALOT**
 
-**Argo CD applications are NOT the same as web applications, although web applications can be deployed using Argo CD.**
+* **Argo CD applications are NOT the same as web applications, although web applications can be deployed using Argo CD.**
 
-**Argo CD can be used to deploy and manage web applications, as well as other types of applications, on a Kubernetes cluster. However, Argo CD is not a platform for building or running web applications itself.**
+* **Argo CD can be used to deploy and manage web applications, as well as other types of applications, on a Kubernetes cluster. However, Argo CD is not a platform for building or running web applications itself.**
 
 ## App-Of-Apps & Applicationset Model
 
@@ -27,6 +27,6 @@
 
 * Best practice is to use a repository utilizing your ssh private key, HOWEVER for demo purposes here replace this repository in the configuration files with an https clone. For example: ```https://github.com/jcquiles/ArgoCD.git```
 
-**Make sure the repository you are using is configured inside ArgoCD and can be recongninzed by Argo.**
+* **Make sure the repository you are using is configured inside ArgoCD and can be recongninzed by Argo.**
 
 * Inside the ```argocd-overlays``` folder simply execute the following Kustomize command ```k apply -k .```
