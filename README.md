@@ -29,4 +29,4 @@
 
 * **Make sure the repository you are using is configured inside ArgoCD and can be recongninzed by Argo.**
 
-* Inside the ```argocd-overlays``` folder simply execute the following Kustomize command ```k apply -k .```
+* Inside the ```argocd-overlays``` folder simply execute the following Kustomize command ```kubectl apply -k .```
