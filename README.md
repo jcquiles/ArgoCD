@@ -21,6 +21,8 @@
 
 * Essentially one ArgoCD application (app-of-apps) will manage an ArgoCD applicationset which using a list generator. This will deploy several web applications at once in different enviornments with one command. In this case, the ```qa, stage, and prod``` namespaces. The web applications will create their own namespaces inside the Kubernetes once deployed. The goal is to provide easy management and visibility for your web applications in Kubernetes.
 
+* The ```argocd-overlays``` & ```argocd-base``` are configuring the argocd app-of-apps and applicationsets. The traditional ```base``` & ```overlays``` are configuring and housing the web applications.
+
 # Deploying Applications to ArgoCD
 
 * Since we are using Kustomize, navigate to the ```argocd-overlays``` folder to deploy applications.
